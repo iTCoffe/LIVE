@@ -1,6 +1,6 @@
 const Config = {
     repository: 'iTaoPu/iTV',
-    branch: '112114'
+    branch: 'mian'
 }
 
 const init = {
