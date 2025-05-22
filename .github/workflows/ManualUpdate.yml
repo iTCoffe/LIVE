@@ -36,7 +36,7 @@ jobs:
         cat CCTV.m3u >> IPTV.m3u
         cat CNTV.m3u >> IPTV.m3u
         sed -i '/#EXTM3U/d' IPTV.m3u
-        sed -i '1i #EXTM3U x-tvg-url="https://itv.ugreen.me.uk/EPG.xml"' IPTV.m3u
+        sed -i '1i #EXTM3U x-tvg-url="https://epg.ugreen.me.uk"' IPTV.m3u
         sed -i '/^\s*$/d' IPTV.m3u
         echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
 
